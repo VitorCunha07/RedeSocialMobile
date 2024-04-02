@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  
+}
+
+main{
+    padding: 5%;
+}
+
+#topo{
+    text-align: center;
+    display: flex;
+
+}
+
+#topo img{
+    width: 7%;
+}
+
+#topo h3{
+    margin-left: 17vh;
+    margin-right: 17vh;
+}
+
+.hub{
+    display: flex;
+    margin-top: 3vh;
+}
+
+.hub button{
+    width: 15vh;
+    height: 5vh;
+    margin-right: 5px;
+    border-radius: 20px;
+    background-color: white;
+    border: 0;
+
+}
+
+#trend{
+    box-shadow: 10px 10px 35px 0px rgb(173, 173, 173);
+
+}
+
+.hud{
+    margin-top: 3vh;
+
+}
+
+.user{
+    display: flex;
+}
+
+.hud img{
+
+    height: 6vh;
+    margin-right: 2vh;
+}
+
+.hud small{
+    margin-left: 8vh;
+    opacity: 0.7;
+    position: relative; 
+}
+
+.post img{
+    width: 50vh;
+    height: auto;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.interact{
+    display: flex;
+    padding-bottom: 3vh;
+}
+
+.interact img{
+    height: 4.5vh;
+    width: auto;
+}
+
+#menuBottom{
+    background-color: white;
+    position: fixed;
+    align-items: left;
+    top: 100%;
+    margin-top: -2.5em;
+    width: 100%;
+    display: flex;
+
+}
+
+.itens{
+    margin-right: 3vh;
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
